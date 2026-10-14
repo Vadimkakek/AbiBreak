@@ -1,0 +1,26 @@
+{
+  "name": "abibreak",
+  "version": "0.1.0",
+  "description": "Detect breaking changes between EVM contract ABI versions.",
+  "type": "module",
+  "bin": {
+    "abibreak": "./src/cli.js"
+  },
+  "scripts": {
+    "start": "node src/cli.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "ethereum",
+    "evm",
+    "abi",
+    "solidity",
+    "breaking-changes",
+    "cli",
+    "ci"
+  ],
+  "license": "MIT"
+}
